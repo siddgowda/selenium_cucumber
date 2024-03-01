@@ -20,6 +20,7 @@ public class BaseTest {
         driver.manage().window().fullscreen();
     }
 
+    //Closing the browser
     @AfterClass
     public void closeBrowser(){
         driver.close();

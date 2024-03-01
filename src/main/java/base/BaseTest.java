@@ -12,6 +12,7 @@ public class BaseTest {
 
     public WebDriver driver;
 
+    //SetUp Browser
     @BeforeClass
     public void setUp() {
         WebDriverManager.chromedriver().setup();
